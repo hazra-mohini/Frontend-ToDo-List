@@ -1,0 +1,52 @@
+.task-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .task-title {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .task-description {
+    margin: 10px 0;
+  }
+  
+  .edit-button,
+  .complete-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-right: 5px;
+  }
+  
+  .edit-button:hover,
+  .complete-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-button {
+    background-color: #28a745;
+  }
+  
+  .edit-button:hover {
+    background-color: #218838;
+  }
+  
+  .timestamp {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
